@@ -1,0 +1,36 @@
+.books{
+    background-color: #191919;
+}
+.books__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.books__item{
+    width: 165px;
+    height: 321px;
+    margin-top: 25px;
+    img{
+        height: 226px;
+        width: 100%;
+        border-radius: 7px;
+        object-fit: cover;
+    }
+    h3{
+        color: #C9AC8C;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    p{
+        color: white;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    span{
+        color: white;
+        opacity: 0.6;
+        font-size: 12px;
+        display: block;
+    }
+}

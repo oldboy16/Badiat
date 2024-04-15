@@ -1,0 +1,19 @@
+header{
+    background-color: #191919;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    margin-right: 60px;
+    a{
+        color: white;
+    }
+}

@@ -1,0 +1,60 @@
+.book__detail{
+    background-color: #191919;
+}
+.bd__inner{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    span{
+        color: grey;
+    }
+    p{
+        padding-top: 20px;
+    }
+}
+.bd__banner{
+    width: 519px;
+    height: 810px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.bd__info{
+    width: 650px;
+}
+.bd__title{
+    color: #C9AC8C;
+    font-size: 48px;
+    font-weight: 400;
+}
+.bd__formats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    div{
+        text-align: center;
+    }
+}
+.iqtiboslar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    div{
+        width: 580px;
+        height: 213px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00000090;
+        text-align: center;
+        padding: 10px;
+        border-radius: 15px;
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

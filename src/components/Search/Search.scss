@@ -1,0 +1,31 @@
+.Search{
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    background-color: #252525;
+    max-width: 1114px;
+    margin: 0 auto;
+    margin-top: -50px;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 100px;
+    h2{
+        font-size: 31px;
+        font-weight: 400;
+        color: #C9AC8C;
+    }
+    input{
+        background-color: #404040;
+        border: none;
+        border-radius: 15px;
+        width: 709px;
+        padding: 10px 15px;
+    }
+    button{
+        background-color: #C9AC8C;
+        padding: 10px 15px;
+        border-radius: 15px;
+        border: none;
+        margin-left: 10px;
+    }
+}
