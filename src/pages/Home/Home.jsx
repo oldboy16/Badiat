@@ -22,7 +22,7 @@ function Home() {
                 <AdibCard item={item}/>
                 </Link>
               </li>
-            )): 
+            )):
             
            adibData?.filter((i)=> i.name.toLowerCase().includes(search.toLowerCase())).map((item,index)=>(
             <li className='home__item' key={index}>

@@ -6,6 +6,7 @@ import AdibDeteil from './pages/AdibDeteil/AdibDeteil';
 import Books from './pages/Books/Books';
 import BookDetail from './pages/BookDetail/BookDetail';
 import Profile from './pages/Profile/Profile';
+import Login from './pages/Login/Login';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/books' element={<Books/>}/>
         <Route path='/book-detail/:id' element={<BookDetail/>}/>
         <Route path='/profile' element={<Profile/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>
   );
